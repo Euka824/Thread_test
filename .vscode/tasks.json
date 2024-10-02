@@ -15,7 +15,8 @@
                 "-ggdb",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-lpthread" // for multithread
             ],
             "problemMatcher": [
                 "$gcc"
