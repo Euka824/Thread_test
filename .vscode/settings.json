@@ -1,0 +1,72 @@
+{
+    "C_Cpp.clang_format_style": "{ BreakBeforeBraces: Attach, IndentWidth: 4 }",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": false,
+    "files.associations": {
+        "string": "cpp",
+        "bitset": "cpp",
+        "*.tcc": "cpp",
+        "optional": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "variant": "cpp",
+        "cmath": "cpp",
+        "iomanip": "cpp",
+        "ostream": "cpp"
+    },
+    "editor.formatOnType": true,
+    "better-comments.tags": [
+        {
+            "tag": "!", //タグ名（最初にこの文字列が入っていると認識する）
+            "color": "#FF2D00", //文字色
+            "strikethrough": false, //打ち消し線
+            "underline": false, //下線
+            "backgroundColor": "transparent", //背景色
+            "bold": false, //太字
+            "italic": false //斜体
+        },
+        //     {
+        //         "tag": "?",
+        //         "color": "#3498DB",
+        //         "strikethrough": false,
+        //         "underline": false,
+        //         "backgroundColor": "transparent",
+        //         "bold": false,
+        //         "italic": false
+        //     },
+        //     {
+        //         "tag": "//",
+        //         "color": "#474747",
+        //         "strikethrough": true,
+        //         "underline": false,
+        //         "backgroundColor": "transparent",
+        //         "bold": false,
+        //         "italic": false
+        //     },
+        {
+            "tag": "^",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#C8C8C8",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+}
